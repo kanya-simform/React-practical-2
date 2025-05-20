@@ -1,0 +1,9 @@
+{
+    "lint-staged": {
+      "**/*": "prettier --write --ignore-unknown"
+    },
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
+}
