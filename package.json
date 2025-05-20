@@ -9,7 +9,7 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "prepare": "husky",
-        "format:staged": "git diff --cached --name-only --diff-filter=ACM | grep '\\.\\(js\\|jsx\\|ts\\|tsx\\|css\\|scss\\|json\\)$' | xargs prettier --write"
+        "format:staged": "git diff --cached --name-only --diff-filter=ACM | grep '\\.\\(js\\|jsx\\|ts\\|tsx\\|css\\|scss\\|json\\)$' | xargs prettier --write ."
     },
     "dependencies": {
         "react": "^19.1.0",
