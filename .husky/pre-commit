@@ -1,3 +1,2 @@
 npm run format:staged
 npm run lint:staged
-git add .
